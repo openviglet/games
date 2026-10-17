@@ -1,0 +1,140 @@
+/* Viglet Games: the colors come from the flat logo (marca/logo/viglet-games.svg in the
+   visibility repository) — the orange circle, the cream outline and the dark V. */
+:root {
+  --coral: #EF5A4C;
+  --orange: #F7915E;
+  --coral-deep: #C8402F;
+  --cream: #F6E9D2;
+  --ink: #2B2B31;
+  --ink-soft: #5A5A63;
+  --bg: #FFF8EF;
+  --surface: #FFFFFF;
+  --line: #EADCC6;
+  --focus: #2B2B31;
+  --radius: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #F6E9D2;
+    --ink-soft: #C9BCA8;
+    --bg: #1B1B20;
+    --surface: #26262D;
+    --line: #3A3A43;
+    --coral-deep: #F7915E;
+    --focus: #F6E9D2;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--coral-deep); }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 16px; top: 16px; background: var(--surface); padding: 8px 12px; z-index: 10; }
+
+/* Header */
+.nav {
+  position: sticky; top: 0; z-index: 5;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-row { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.wordmark { font-weight: 800; font-size: 20px; letter-spacing: -0.01em; }
+.wordmark b { color: var(--coral); font-weight: 800; }
+.nav-links { display: flex; gap: 20px; }
+.nav-links a { color: var(--ink); text-decoration: none; font-weight: 600; }
+.nav-links a:hover { color: var(--coral); }
+
+/* Hero */
+.hero { padding: 72px 0 56px; }
+.hero-row { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: center; }
+.eyebrow { margin: 0 0 8px; color: var(--coral); font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px; }
+h1 { margin: 0 0 16px; font-size: clamp(36px, 6vw, 60px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800; }
+.lead { color: var(--ink-soft); font-size: 19px; max-width: 34em; }
+.hero-mark { width: 100%; max-width: 320px; justify-self: center; filter: drop-shadow(0 18px 30px rgba(239, 90, 76, 0.25)); }
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--coral);
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+  border: 3px solid var(--cream);
+  box-shadow: 0 0 0 2px var(--coral);
+}
+.btn:hover { background: var(--coral-deep); box-shadow: 0 0 0 2px var(--coral-deep); }
+
+/* Games */
+h2 { font-size: clamp(28px, 4vw, 38px); margin: 0 0 24px; letter-spacing: -0.01em; }
+.games { padding: 48px 0; }
+.game-list { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.game {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.game-art img { width: 100%; aspect-ratio: 1.91 / 1; object-fit: cover; }
+.game-body { padding: 22px 24px 26px; display: flex; flex-direction: column; flex: 1; }
+.game h3 { margin: 0; font-size: 28px; }
+.genre { margin: 0 0 8px; color: var(--coral-deep); font-weight: 600; }
+.status { margin: 0 0 6px; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); }
+.game-body > p:not(.status):not(.genre) { color: var(--ink-soft); margin: 0 0 20px; }
+.actions { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
+.soon { font-size: 14px; color: var(--ink-soft); }
+.game-spinhold { background: linear-gradient(180deg, var(--surface), color-mix(in srgb, #6B3FD6 8%, var(--surface))); }
+.game-cottony { background: linear-gradient(180deg, var(--surface), color-mix(in srgb, #F59AC0 10%, var(--surface))); }
+
+/* Press kit */
+.press { padding: 48px 0 64px; }
+.press-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; margin-top: 8px; }
+.facts { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 24px; }
+.facts div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.facts div:last-child { border-bottom: 0; }
+.facts dt { font-weight: 800; }
+.facts dd { margin: 0; color: var(--ink-soft); }
+.downloads { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; align-content: start; }
+.downloads a {
+  display: flex; justify-content: space-between; gap: 12px;
+  padding: 14px 18px; border-radius: 12px;
+  background: var(--surface); border: 1px solid var(--line);
+  color: var(--ink); font-weight: 600; text-decoration: none;
+}
+.downloads a:hover { border-color: var(--coral); }
+.downloads span { color: var(--ink-soft); font-weight: 400; font-size: 14px; white-space: nowrap; }
+
+/* Footer */
+.foot { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--ink-soft); font-size: 15px; }
+.foot p { margin: 0 0 6px; }
+
+@media (max-width: 760px) {
+  .hero { padding: 40px 0 32px; }
+  .hero-row, .game-list, .press-grid { grid-template-columns: 1fr; }
+  .hero-mark { max-width: 180px; grid-row: 1; justify-self: start; }
+  .facts div { grid-template-columns: 1fr; gap: 2px; }
+  .nav-links { gap: 14px; }
+  .wordmark { font-size: 18px; }
+}
