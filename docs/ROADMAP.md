@@ -3,7 +3,6 @@
 ## Block A — The label page
 
 - 📋 **VG2** (deps: —) (requires: owner) **the press kit has no contact address, so a journalist who wants more has nowhere to write** — A press kit without a way to ask is half of one, and no Viglet site lists an address the label answers. → §VG2
-- 📋 **VG3** (deps: —) **the page is English only, while both game sites switch between English and Portuguese** — A visitor who came from a game site in Portuguese lands on the label in English, and the label reads as the less finished of the three. → §VG3
 
 ## Block B — Steam presence
 

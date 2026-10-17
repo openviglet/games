@@ -10,7 +10,7 @@ this page introduces the label, points to each game and holds the press kit.
 
 | Path | What it is |
 |---|---|
-| `site/` | The page: static HTML and CSS, no build step |
+| `site/` | The page: static HTML and CSS, no build step; `app.js` holds the Portuguese strings and the EN/PT switch |
 | `site/assets/press/` | The press kit downloads |
 | `.github/workflows/pages.yml` | Publishes `site/` to GitHub Pages on every push to `main` |
 | `docs/ROADMAP.md` | Open tasks (prefix `VG`), governed by roadkeep |

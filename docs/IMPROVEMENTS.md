@@ -7,14 +7,8 @@
 None of the Viglet sites (viglet.org, cottony, spinhold) carries an e-mail address, so
 the page shipped without one rather than with an invented one. The owner picks the
 address (press@viglet.com is the usual shape) and makes sure it reaches someone; then a
-Contact line joins the facts list in site/index.html.
-
-### §VG3 The page speaks one language
-
-Cottony and Spinhold carry an EN/PT toggle driven by data-i18n attributes in app.js. The
-label page is short enough that the same approach costs little: the strings go into a
-table, the toggle into the header, and the choice is remembered the way the game sites
-remember it. Wait for the copy to settle first, so the translation is done once.
+Contact line joins the facts list in site/index.html, with a data-i18n key and its
+Portuguese in the PT table of site/app.js (the page is bilingual since VG3).
 
 ## Block B — Steam presence
 
