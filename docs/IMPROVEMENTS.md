@@ -29,14 +29,6 @@ switch before the other.
 
 ## Block C — Links and measurement
 
-### §VG6 The game sites do not lead to the label
-
-Both cottony.viglet.com and spinhold.viglet.com carry assets/viglet-games-lockup.webp,
-the plush 3D lockup, in their studio section. It should become the flat mark
-(marca/logo/viglet-games.svg in the visibility repository) and the lockup should link to
-https://games.viglet.com/. The change is made in the cottony and spinhold repositories,
-after the label page answers.
-
 ### §VG7 The company site does not mention the games
 
 One link in the viglet.org footer, Viglet Games -> https://games.viglet.com/, is enough

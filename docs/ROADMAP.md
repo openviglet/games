@@ -11,7 +11,6 @@
 
 ## Block C — Links and measurement
 
-- 📋 **VG6** (deps: VG1 ✅) **the game sites still show the old 3D Viglet Games lockup and do not link to the label page** — The flat logo was chosen on 17/10/2026, and a player who likes one game has no path to the other. → §VG6
 - 📋 **VG7** (deps: VG1 ✅) **viglet.org says nothing about Viglet Games, so the company site hides half of what the company makes** — The label is part of the Viglet the owner wants to grow, and the company site is where that is visible. → §VG7
 
 ## Non-goals
