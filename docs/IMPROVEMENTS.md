@@ -2,14 +2,6 @@
 
 ## Block A — The label page
 
-### §VG1 The page has no address yet
-
-Two steps, both in accounts only the owner holds. In the repository settings, Pages must
-be set to deploy from GitHub Actions, which lets .github/workflows/pages.yml publish
-site/. At the DNS provider for viglet.com, a CNAME record games -> openviglet.github.io
-makes site/CNAME resolve. Done when https://games.viglet.com/ serves the page over
-HTTPS, with Enforce HTTPS ticked once GitHub issues the certificate.
-
 ### §VG2 The press kit has no contact
 
 None of the Viglet sites (viglet.org, cottony, spinhold) carries an e-mail address, so
@@ -57,10 +49,3 @@ One link in the viglet.org footer, Viglet Games -> https://games.viglet.com/, is
 for now; the enterprise products stay the centre of the site, which is also where the
 long-term search bet for Turing lives. The change is made in the site repository after
 the label page answers.
-
-### §VG8 The page is not measured
-
-Add an entry to products.json in the visibility repository: owner openviglet, repo
-games, ga property 506977335, path /, host games.viglet.com, the way cottony and
-spinhold are listed. Then the next review exports its visits beside the two games. Do it
-once the page answers, so the first day collected is a real one.
