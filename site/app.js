@@ -16,7 +16,7 @@
     'nav.press': 'Kit de imprensa',
 
     'hero.title': 'Cada jogo, um&nbsp;mundo.',
-    'hero.lead': 'Criamos a Viglet Games para fazer o tipo de lugar ao qual sempre voltávamos como jogadores: mundos pequenos o bastante para conhecer de cor e diferentes o bastante para nenhum lembrar o anterior.',
+    'hero.lead': 'Criamos a Viglet Games para fazer o tipo de lugar ao qual sempre voltávamos como jogadores: mundos pequenos o bastante para conhecer de cor, mas sempre com algo novo para descobrir.',
     'hero.cta': 'Conheça os jogos',
     'hero.alt': 'O logo da Viglet Games: um V sorridente sobre um círculo laranja',
 
