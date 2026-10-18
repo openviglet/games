@@ -15,8 +15,8 @@
     'nav.games': 'Jogos',
     'nav.press': 'Kit de imprensa',
 
-    'hero.title': 'Criamos aventuras épicas para a&nbsp;Steam.',
-    'hero.lead': 'A Viglet Games é uma publisher movida a criatividade e carinho. Dois jogos estão a caminho: um match-3 feito de feltro e enchimento, e um shooter arcade pilotado ao redor de uma colônia espacial que gira. Os dois vêm para a Steam.',
+    'hero.title': 'Cada jogo, um&nbsp;mundo.',
+    'hero.lead': 'Criamos a Viglet Games para fazer o tipo de lugar ao qual sempre voltávamos como jogadores: mundos pequenos o bastante para conhecer de cor e diferentes o bastante para nenhum lembrar o anterior.',
     'hero.cta': 'Conheça os jogos',
     'hero.alt': 'O logo da Viglet Games: um V sorridente sobre um círculo laranja',
 

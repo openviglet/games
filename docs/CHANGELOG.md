@@ -4,6 +4,7 @@
 
 - ✅ **VG1** **games.viglet.com does not answer: Pages is not switched on and no DNS record points at it** — games.viglet.com now serves the label page from GitHub Pages, published by the pages workflow.
 - ✅ **VG3** **the page is English only, while both game sites switch between English and Portuguese** — The label page switches between English and Portuguese like the game sites: an EN/PT toggle in the header, the browser language picked first and the choice remembered.
+- ✅ **VG9** **the hero slogan promises epic Steam adventures, tying the label to one store and a genre neither game is** — The hero reads "Every game its own world" over a lead on why the label exists, in EN and PT, naming no store and no game (design superseded: the lead was rewritten too).
 
 ## Block B — Steam presence
 
