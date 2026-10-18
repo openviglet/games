@@ -11,6 +11,4 @@
 
 ## Block C — Links and measurement
 
-- 📋 **VG7** (deps: VG1 ✅) **viglet.org says nothing about Viglet Games, so the company site hides half of what the company makes** — The label is part of the Viglet the owner wants to grow, and the company site is where that is visible. → §VG7
-
 ## Non-goals

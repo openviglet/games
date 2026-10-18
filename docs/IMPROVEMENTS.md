@@ -28,10 +28,3 @@ line drops 'Coming to Steam' for the release window if one is announced. One gam
 switch before the other.
 
 ## Block C — Links and measurement
-
-### §VG7 The company site does not mention the games
-
-One link in the viglet.org footer, Viglet Games -> https://games.viglet.com/, is enough
-for now; the enterprise products stay the centre of the site, which is also where the
-long-term search bet for Turing lives. The change is made in the site repository after
-the label page answers.
