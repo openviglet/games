@@ -41,13 +41,13 @@
     'press.status': 'Situação',
     'press.status.value': 'Os dois em desenvolvimento, sem data de lançamento anunciada',
     'press.follow': 'Siga',
-    'press.logo':'Logo da Viglet Games <span>SVG</span>',
+    'press.logo': 'Logo da Viglet Games <span>SVG</span>',
     'press.cottony': 'Arte principal do Cottony <span>JPG · 820 × 429</span>',
     'press.spinhold': 'Arte principal do Spinhold <span>JPG · 1200 × 630</span>',
 
     'foot.label': 'A Viglet Games é um selo da Viglet Serviços de Informática LTDA. Nossos jogos estão em desenvolvimento, e tudo o que aparece aqui pode mudar.',
     'foot.follow': 'Siga a Viglet Games no <a href="https://viglet.itch.io/">itch.io</a> para saber quando cada jogo for lançado.',
-    'foot.viglet':'A <a href="https://www.viglet.org/">Viglet</a> também faz software corporativo de código aberto: Viglet Turing, Viglet Shio e Viglet Dumont.',
+    'foot.viglet': 'A <a href="https://www.viglet.org/">Viglet</a> também faz software corporativo de código aberto: Viglet Turing, Viglet Shio e Viglet Dumont.',
   };
 
   const textNodes = [...document.querySelectorAll('[data-i18n]')];
